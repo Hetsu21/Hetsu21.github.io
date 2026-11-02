@@ -28,9 +28,9 @@ The included workflow builds and tests the portfolio, then publishes only `dist/
 
 For the current repository, the expected URL after a successful deployment is:
 
-https://hetsu21.github.io/Website/
+https://hetsu21.github.io/
 
-Assets, translations, and quotes use relative paths, so the site works under `/Website/`. The repository does not need a root-level `index.html` because the workflow publishes `dist/` directly.
+Assets, translations, and quotes use relative paths. The repository is named `Hetsu21.github.io`, so GitHub Pages serves it at the account’s root address. The repository does not need a root-level `index.html` because the workflow publishes `dist/` directly.
 
 ## Files to edit
 
