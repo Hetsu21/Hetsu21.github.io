@@ -1,0 +1,12 @@
+# macOS / Finder metadata
+.DS_Store
+*.fileloc
+
+# Local tools and caches
+node_modules/
+.cache/
+*.log
+
+# Build intermediates and obsolete Sites configuration
+*.tmp
+.openai/
