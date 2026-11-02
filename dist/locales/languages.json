@@ -1,0 +1,23 @@
+{
+  "default": "en",
+  "languages": [
+    {
+      "code": "en",
+      "label": "English",
+      "file": "en.json",
+      "direction": "ltr"
+    },
+    {
+      "code": "fr",
+      "label": "Français",
+      "file": "fr.json",
+      "direction": "ltr"
+    },
+    {
+      "code": "es",
+      "label": "Español",
+      "file": "es.json",
+      "direction": "ltr"
+    }
+  ]
+}

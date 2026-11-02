@@ -1,0 +1,35 @@
+<section id="projects" class="section wrap">
+  <div class="section-heading">
+    <div><h2 data-i18n="projects.heading">Projects</h2></div>
+    <p>
+      <span data-i18n="projects.introFirst"
+        >Different challenges. Unique abilities.</span
+      ><br /><span data-i18n="projects.introSecond"
+        >Every project has a story.</span
+      >
+    </p>
+  </div>
+  <div class="collection-tools">
+    <div class="filters" role="group" aria-label="Filter projects">
+      <button class="active" data-filter="All" aria-pressed="true">
+        <span data-i18n="filters.all">All cards</span></button
+      ><button data-filter="Web" aria-pressed="false">
+        <span data-i18n="filters.web">Web</span></button
+      ><button data-filter="Tools" aria-pressed="false">
+        <span data-i18n="filters.tools">Tools</span></button
+      ><button data-filter="Experiments" aria-pressed="false">
+        <span data-i18n="filters.experiments">Experiments</span>
+      </button>
+    </div>
+    <span id="project-count" class="mono"></span>
+  </div>
+  <p
+    id="project-empty"
+    class="empty-projects"
+    data-i18n="projects.empty"
+    hidden
+  >
+    No projects in this category yet.
+  </p>
+  <div id="project-grid" class="project-grid" aria-live="polite"></div>
+</section>

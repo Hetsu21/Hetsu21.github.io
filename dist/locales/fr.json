@@ -1,0 +1,352 @@
+{
+  "a11y": {
+    "skip": "Aller au contenu",
+    "navigation": "Navigation principale",
+    "filters": "Filtrer les projets",
+    "playerCard": "Carte décorative de développeur",
+    "close": "Fermer les détails du projet"
+  },
+  "nav": {
+    "collection": "La collection",
+    "profile": "Profil du joueur",
+    "quotes": "Mots à garder",
+    "contact": "Discutons ↗"
+  },
+  "hero": {
+    "eyebrow": "DÉVELOPPEUR LOGICIEL · PASSIONNÉ DE TCG",
+    "headingFirst": "Du bon code.",
+    "headingSecond": "De beaux ",
+    "headingAccent": "combos.",
+    "introBefore": "Moi, c’est ",
+    "introAfter": ". Je transforme les idées en expériences numériques soignées. Développeur de métier. Collectionneur dans l’âme.",
+    "explore": "Explorer ma collection ",
+    "meet": "Rencontrer le joueur ",
+    "note": "CRÉÉ AVEC SOIN. TOUJOURS EN ÉVOLUTION."
+  },
+  "player": {
+    "title": "LE DÉVELOPPEUR",
+    "rarity": "✧ BASE",
+    "type": "TYPE CRÉATIF / HUMAIN",
+    "hp": "PV ∞",
+    "edition": "Développeur logiciel · Première édition",
+    "abilityTitle": "Créer quelque chose qui compte",
+    "abilityDescription": "Transforme la curiosité et un peu de caféine en expériences agréables à utiliser.",
+    "craft": "SAVOIR-FAIRE ",
+    "curiosity": "CURIOSITÉ ",
+    "collection": "COLLECTION ",
+    "footer": "✦ RARE PAR NATURE",
+    "caption": "UN PEU DE PERSONNALITÉ DANS CHAQUE CRÉATION."
+  },
+  "ticker": {
+    "developer": "DÉVELOPPEUR LE JOUR",
+    "collector": "COLLECTIONNEUR TOUJOURS",
+    "commit": "ENCORE UN COMMIT",
+    "pack": "ENCORE UN BOOSTER"
+  },
+  "projects": {
+    "eyebrow": "01 / PROJETS CHOISIS",
+    "heading": "Projets",
+    "headingAccent": "",
+    "introFirst": "Quelques projets que j’ai réalisés.",
+    "introSecond": "",
+    "sampleNote": "",
+    "count": "{count} CARTES AFFICHÉES",
+    "sample": "PROJET D’EXEMPLE",
+    "explore": "Explorer le projet ↗",
+    "view": "Voir la carte ↗",
+    "number": "N°",
+    "items": {
+      "001": {
+        "title": "API de gestion des inscriptions universitaires",
+        "description": "Conception et implémentation d’une API REST en Java/Jersey pour la gestion des inscriptions universitaires. Développement de services CRUD pour six entités avec des données JSON, automatisation des builds avec Maven et tests d’intégration avec cURL et jq. Utilisation de Git pour le contrôle de version et le développement collaboratif.",
+        "tags": ["Java", "Jersey", "Maven", "JSON", "cURL", "jq"]
+      },
+      "002": {
+        "title": "Portfolio personnel",
+        "description": "Un portfolio multilingue en HTML, CSS et JavaScript. Contenu en français, anglais et espagnol, citations dans un fichier JSON partagé, aperçu agrandi des projets et script Node.js qui assemble des sections HTML séparées.",
+        "tags": ["HTML", "CSS", "JavaScript", "JSON", "Node.js"]
+      }
+    },
+    "empty": "Aucun projet dans cette catégorie pour le moment."
+  },
+  "filters": {
+    "all": "Toutes les cartes",
+    "web": "Web",
+    "tools": "Outils",
+    "experiments": "Expériences"
+  },
+  "about": {
+    "eyebrow": "02 / PROFIL DU JOUEUR",
+    "headingFirst": "À propos de moi",
+    "headingSecond": "",
+    "headingAccent": "",
+    "noteFirst": "Que ce soit un bug tenace ou un nouveau deck,",
+    "noteSecond": "je cherche toujours la prochaine bonne combinaison.",
+    "bio": "Je contribue au projet Rx-APA : développement d’applications React et React Native, internationalisation, validation de formulaires et dépannage technique. Je travaille avec Git et GitLab dans un environnement collaboratif qui comprend CI/CD, tests, revue de code et documentation.\n\nJ’ai l’impression d’avoir toujours besoin de quelque chose pour stimuler mon esprit. C’est en partie pour ça que j’aime lire des livres comme Think Like a Programmer de V. Anton Spraul et Co-Intelligence: Living and Working with AI d’Ethan Mollick. J’apprends aussi le japonais de mon côté.\n\nJ’aime aussi les jeux de cartes à collectionner pour la réflexion qu’ils demandent : construire un deck, trouver des combinaisons inattendues et décider comment utiliser des ressources limitées pour atteindre un objectif. J’aime élaborer un plan, puis l’adapter à mesure que la partie évolue.\n\nJ’aime aussi optimiser les choses : repérer les étapes inutiles, simplifier un processus et trouver une façon plus efficace d’arriver au même résultat."
+  },
+  "skills": {
+    "heading": "Compétences techniques",
+    "intro": "Toute bonne création commence avec le bon deck.",
+    "passiveLabel": "TALENT PASSIF",
+    "passiveTitle": "Toujours apprendre.",
+    "passiveDescription": "De nouveaux outils, de nouvelles idées, et de la place pour une carte de plus.",
+    "sampleNote": ""
+  },
+  "quotes": {
+    "eyebrow": "03 / MOTS À GARDER",
+    "headingFirst": "Une carte pour",
+    "headingSecond": "votre ",
+    "headingAccent": "esprit.",
+    "introFirst": "Une petite collection de pensées à garder.",
+    "introSecond": "Un tirage au hasard à la fois.",
+    "deck": "✧ LE DECK D’INSPIRATION",
+    "draw": "une autre citation ",
+    "empty": "Votre prochaine pensée préférée a sa place ici.",
+    "emptyAuthor": "Ajoutez une citation dans quotes.json",
+    "intro": "J’aime lire. Je garde ici quelques passages que j’ai envie de relire.",
+    "loading": "Chargement des citations…",
+    "loadError": "Impossible de charger les citations. Essayez d’actualiser la page."
+  },
+  "contact": {
+    "eyebrow": "04 / VOTRE PROCHAIN COÉQUIPIER ?",
+    "headingFirst": "Me contacter",
+    "headingAccent": "",
+    "introFirst": "Une idée, une occasion, ou une carte préférée ?",
+    "introSecond": "J’aimerais en discuter avec vous.",
+    "sampleNote": "",
+    "hello": "Me contacter",
+    "github": "GitHub ↗",
+    "soon": "bientôt",
+    "emailHint": "Ajoutez votre adresse courriel dans content.js",
+    "githubHint": "Ajoutez votre lien GitHub dans content.js"
+  },
+  "footer": {
+    "credit": " · construit petit à petit.",
+    "top": "Retour en haut ↑"
+  },
+  "dialog": {
+    "eyebrow": "CARTE PROJET / CONTENU D’EXEMPLE",
+    "note": "Remplacez cet exemple et ajoutez le lien du projet dans content.js."
+  },
+  "meta": {
+    "title": "Jose-Luis Caceres Reyna — Étudiant en génie logiciel",
+    "description": "Je suis étudiant en informatique et génie logiciel à l’UQAM, à Montréal. Je m’intéresse à l’automatisation, à la conception de systèmes et à l’intégration de solutions d’IA en Python."
+  },
+  "language": {
+    "label": "Langue",
+    "error": "Impossible de charger cette langue. La langue actuelle reste affichée."
+  },
+  "profile": {
+    "name": "Jose-Luis Caceres Reyna",
+    "skills": [
+      "Java",
+      "Python",
+      "JavaScript",
+      "C++",
+      "SQL",
+      "React",
+      "React Native",
+      "Flask",
+      "Node.js",
+      "HTML5",
+      "CSS3",
+      "REST APIs",
+      "SQLite",
+      "Git",
+      "GitLab",
+      "Docker",
+      "CI/CD",
+      "Maven",
+      "Linux",
+      "VS Code",
+      "cURL",
+      "jq"
+    ],
+    "location": "Montréal, Québec",
+    "languages": "Langues : français, anglais, espagnol.",
+    "skillGroups": [
+      {
+        "title": "Programmation",
+        "items": ["Java", "Python", "JavaScript", "C++", "SQL"]
+      },
+      {
+        "title": "Développement Web",
+        "items": [
+          "React",
+          "React Native",
+          "Flask",
+          "Node.js",
+          "HTML5",
+          "CSS3",
+          "API REST"
+        ]
+      },
+      {
+        "title": "Bases de données",
+        "items": [
+          "SQLite",
+          "SQL",
+          "Conception et manipulation de données relationnelles"
+        ]
+      },
+      {
+        "title": "Outils et DevOps",
+        "items": [
+          "Git",
+          "GitLab",
+          "Docker",
+          "CI/CD",
+          "Maven",
+          "Linux",
+          "VS Code"
+        ]
+      },
+      {
+        "title": "Tests et intégration",
+        "items": ["Tests d’intégration", "cURL", "jq", "Validation d’API"]
+      },
+      {
+        "title": "Méthodes",
+        "items": ["Agile", "Kanban", "Revue de code", "Documentation technique"]
+      }
+    ]
+  },
+  "categories": {
+    "Web": "Web",
+    "Tools": "Outils",
+    "Experiments": "Expériences"
+  },
+  "rarities": {
+    "RARE": "RARE",
+    "UNCOMMON": "PEU COMMUNE",
+    "HOLOGRAPHIC": "HOLOGRAPHIQUE"
+  },
+  "hall": {
+    "home": "Accueil",
+    "back": "← retour",
+    "eyebrow": "LA COLLECTION DU DÉVELOPPEUR",
+    "heading": "Bienvenue dans mon petit univers.",
+    "intro": "Je suis étudiant en informatique et génie logiciel à l’UQAM, à Montréal. Je m’intéresse à l’automatisation, à la conception de systèmes et à l’intégration de solutions d’IA en Python.",
+    "note": "TROIS CARTES. UN DÉVELOPPEUR. TANT À DÉCOUVRIR.",
+    "open": "OUVRIR LA CARTE ↗",
+    "about": {
+      "type": "LE DÉVELOPPEUR",
+      "artLabel": "TYPE CRÉATIF / HUMAIN",
+      "title": "À propos",
+      "subtitle": "La personne derrière le clavier",
+      "ability": "La curiosité fait partie du jeu",
+      "description": "Mon histoire, mes compétences et ce qui m’anime."
+    },
+    "projects": {
+      "type": "LE CRÉATEUR",
+      "artLabel": "TYPE CRÉATIF / PROJETS",
+      "title": "Projets",
+      "subtitle": "Des idées devenues réalité",
+      "ability": "Créer la prochaine bonne combinaison",
+      "description": "Explorez ma collection de projets, d’outils et d’expériences."
+    },
+    "experience": {
+      "type": "LE PARCOURS",
+      "artLabel": "TYPE ÉVOLUTION / EXPÉRIENCE",
+      "title": "Expérience",
+      "subtitle": "Chaque chapitre apporte un nouveau talent",
+      "ability": "Toujours progresser",
+      "description": "Les rôles, les défis et les leçons accumulés en chemin."
+    }
+  },
+  "experience": {
+    "eyebrow": "03 / EXPÉRIENCE",
+    "heading": "Expérience",
+    "intro": "Où j’ai travaillé et ce que j’y ai fait.",
+    "note": "",
+    "items": [
+      {
+        "role": "Développeur logiciel",
+        "company": "Rx-APA",
+        "period": "Janvier 2026 – présent",
+        "note": "Projet supervisé de janvier à mai 2026, puis contribution au projet depuis août 2026.",
+        "description": "Développement, maintenance et amélioration d’applications React et React Native.",
+        "highlights": [
+          "Développement et correction de fonctionnalités Web : internationalisation, validation de formulaires et amélioration de l’expérience utilisateur.",
+          "Analyse et résolution de problèmes applicatifs; dépannage de scripts, d’API et de configurations techniques.",
+          "Utilisation de Git, GitLab et de pipelines CI/CD pour les tests, la validation, la revue de code et le déploiement.",
+          "Collaboration avec l’équipe pour comprendre les besoins et assurer la qualité des fonctionnalités livrées.",
+          "Rédaction de documentation technique sur les modifications, les tests, les problèmes rencontrés et les recommandations.",
+          "Participation à la recherche et au prototypage en Python pour l’automatisation et le traitement de contenu multimédia."
+        ]
+      }
+    ]
+  },
+  "desktop": {
+    "status": "BUREAU DU DÉVELOPPEUR / À EXPLORER",
+    "quoteLabel": "une citation que j’aime",
+    "contact": "Contact",
+    "hint": "Cliquez sur un élément pour en savoir un peu plus.",
+    "edition": "COLLECTION PERSONNELLE · PREMIÈRE ÉDITION",
+    "close": "Fermer ×",
+    "greeting": "Moi, c’est "
+  },
+  "layout": {
+    "home": "Accueil",
+    "skills": "Compétences",
+    "quotes": "Citations",
+    "role": "Étudiant en génie logiciel",
+    "note": "Du code, des cartes et des choses à apprendre.",
+    "hello": "Bonjour !",
+    "viewProjects": "Voir mes projets →",
+    "getInTouch": "Me contacter →",
+    "education": "Éducation",
+    "training": "Formation complémentaire"
+  },
+  "education": {
+    "heading": "Éducation",
+    "items": [
+      {
+        "role": "Baccalauréat en informatique et génie logiciel",
+        "company": "UQAM",
+        "period": "Fin prévue : août 2027",
+        "description": "Cours pertinents : programmation orientée objet, structures de données, algorithmes, développement Web, bases de données, réseaux, Unix/Linux et génie logiciel."
+      }
+    ]
+  },
+  "training": {
+    "heading": "Formation complémentaire",
+    "items": [
+      {
+        "role": "AWS Community on Tour",
+        "company": "AWS Developer Relations",
+        "period": "Août 2026",
+        "description": "Atelier pratique sur le développement d’applications, l’intégration de services infonuagiques et le déploiement d’architectures serverless."
+      },
+      {
+        "role": "COBOL Programming with VS Code",
+        "company": "IBM / Coursera",
+        "period": "Août 2026",
+        "description": "Formation pratique en développement, débogage, traitement de données, COBOL, JCL, DB2 et environnement IBM z/OS."
+      },
+      {
+        "role": "Micro-stages en IA",
+        "company": "Placement Spot",
+        "period": "Juin 2026",
+        "description": "Deux micro-stages : automatiser une tâche avec l’IA sans coder, et comparer les outils d’IA pour sélectionner une solution selon les besoins et les performances."
+      },
+      {
+        "role": "Hacktoberfest Hack Day Montréal x AGEEI",
+        "company": "Montréal, Québec",
+        "period": "",
+        "description": "Participation à un hackathon axé sur la contribution au logiciel libre et open source, la collaboration en équipe et le développement collaboratif."
+      }
+    ]
+  },
+  "social": {
+    "label": "Profils sociaux",
+    "pending": "{network} — lien du profil à ajouter"
+  },
+  "interests": {
+    "heading": "Intérêts du moment",
+    "topic": "Ingénierie de l’IA et apprentissage automatique",
+    "description": "J’apprends actuellement l’ingénierie de l’IA et l’apprentissage automatique en autodidacte. C’est un sujet que j’explore en parallèle de mes études et de mon travail en développement.",
+    "notesDescription": "Je vais rassembler mes notes d’apprentissage automatique dans ce dépôt au fil de mon apprentissage.",
+    "notesLink": "Mes notes d’apprentissage automatique ↗"
+  }
+}

@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="A software developer’s projects, experience, and interests."
+    />
+    <title>Jose-Luis Caceres Reyna — Software Engineering Student</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="content.js" defer></script>
+    <script src="i18n.js" defer></script>
+    <script src="app.js" defer></script>
+    <script src="navigation.js" defer></script>
+  </head>
+  <body id="top">
+    <a class="skip" href="#main-content" data-i18n="a11y.skip"
+      >Skip to content</a
+    >
+    <aside class="sidebar">
+      <a class="sidebar-profile" href="#top"
+        ><span class="sidebar-name" data-name>Jose-Luis Caceres Reyna</span
+        ><span class="sidebar-role" data-i18n="layout.role"
+          >Software engineering student</span
+        ></a
+      >
+      <div id="social-links" class="social-links"></div>
+      <nav class="section-nav" aria-label="Main navigation">
+        <!-- SECTION_NAV -->
+      </nav>
+      <div class="sidebar-bottom">
+        <div class="language-control">
+          <label for="language-select" data-i18n="language.label"
+            >Language</label
+          ><select id="language-select" aria-describedby="language-status">
+            <option value="en">English</option>
+            <option value="fr">Français</option>
+            <option value="es">Español</option>
+          </select>
+        </div>
+        <p class="sidebar-note" data-i18n="layout.note">
+          Code, card games, and things I’m learning.
+        </p>
+      </div>
+    </aside>
+    <main id="main-content" class="portfolio-content">
+      <p
+        id="language-status"
+        class="language-status"
+        role="status"
+        aria-live="polite"
+      ></p>
+      <!-- SECTIONS -->
+      <footer>
+        <span
+          >© <span id="year"></span>
+          <span data-name>Jose-Luis Caceres Reyna</span></span
+        ><a href="#top" data-i18n="footer.top">Back to top ↑</a>
+      </footer>
+    </main>
+    <dialog
+      id="project-dialog"
+      class="card-viewer"
+      aria-labelledby="detail-title"
+      aria-describedby="detail-description"
+    >
+      <button
+        type="button"
+        class="close-dialog"
+        aria-label="Close project details"
+        autofocus
+      >
+        ×
+      </button>
+      <article class="project-card enlarged-card">
+        <div class="project-top">
+          <span id="detail-rarity"></span><span id="detail-number"></span>
+        </div>
+        <div id="detail-art"></div>
+        <div class="project-body">
+          <p id="detail-type" class="project-type"></p>
+          <h2 id="detail-title"></h2>
+          <p id="detail-description" class="project-description"></p>
+          <div id="detail-tags" class="tags"></div>
+          <a
+            id="detail-link"
+            class="button primary"
+            target="_blank"
+            rel="noopener noreferrer"
+            hidden
+          ></a>
+          <p id="detail-note" class="sample-note">
+            <span data-i18n="dialog.note"
+              >Replace this sample and add a live or source link in
+              content.js.</span
+            >
+          </p>
+        </div>
+      </article>
+    </dialog>
+  </body>
+</html>

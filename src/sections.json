@@ -1,0 +1,72 @@
+[
+  {
+    "id": "home",
+    "file": "sections/home.html",
+    "label": "layout.home",
+    "fallback": "Home",
+    "enabled": true
+  },
+  {
+    "id": "about",
+    "file": "sections/about.html",
+    "label": "hall.about.title",
+    "fallback": "About me",
+    "enabled": true
+  },
+  {
+    "id": "interests",
+    "file": "sections/interests.html",
+    "label": "interests.heading",
+    "fallback": "Current interests",
+    "enabled": true
+  },
+  {
+    "id": "education",
+    "file": "sections/education.html",
+    "label": "layout.education",
+    "fallback": "Education",
+    "enabled": true
+  },
+  {
+    "id": "experience",
+    "file": "sections/experience.html",
+    "label": "hall.experience.title",
+    "fallback": "Experience",
+    "enabled": true
+  },
+  {
+    "id": "projects",
+    "file": "sections/projects.html",
+    "label": "hall.projects.title",
+    "fallback": "Projects",
+    "enabled": true
+  },
+  {
+    "id": "training",
+    "file": "sections/training.html",
+    "label": "layout.training",
+    "fallback": "Training",
+    "enabled": true
+  },
+  {
+    "id": "skills",
+    "file": "sections/skills.html",
+    "label": "layout.skills",
+    "fallback": "Skills",
+    "enabled": true
+  },
+  {
+    "id": "quotes",
+    "file": "sections/quotes.html",
+    "label": "layout.quotes",
+    "fallback": "Quotes",
+    "enabled": true
+  },
+  {
+    "id": "contact",
+    "file": "sections/contact.html",
+    "label": "desktop.contact",
+    "fallback": "Contact",
+    "enabled": true
+  }
+]

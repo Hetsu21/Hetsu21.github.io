@@ -1,0 +1,348 @@
+{
+  "a11y": {
+    "skip": "Skip to content",
+    "navigation": "Main navigation",
+    "filters": "Filter projects",
+    "playerCard": "Decorative developer trading card",
+    "close": "Close project details"
+  },
+  "nav": {
+    "collection": "The collection",
+    "profile": "Player profile",
+    "quotes": "Words to keep",
+    "contact": "Let’s talk ↗"
+  },
+  "hero": {
+    "eyebrow": "SOFTWARE DEVELOPER · TCG ENTHUSIAST",
+    "headingFirst": "Good code.",
+    "headingSecond": "Great ",
+    "headingAccent": "combos.",
+    "introBefore": "I’m ",
+    "introAfter": ". I turn ideas into thoughtful digital experiences. A developer by craft. A collector at heart.",
+    "explore": "Explore my collection ",
+    "meet": "Meet the player ",
+    "note": "BUILT WITH INTENTION. ALWAYS EVOLVING."
+  },
+  "player": {
+    "title": "THE DEVELOPER",
+    "rarity": "✧ BASIC",
+    "type": "CREATIVE TYPE / HUMAN",
+    "hp": "HP ∞",
+    "edition": "Software developer · First edition",
+    "abilityTitle": "Build something meaningful",
+    "abilityDescription": "Turns curiosity and a little caffeine into experiences people love to use.",
+    "craft": "CRAFT ",
+    "curiosity": "CURIOSITY ",
+    "collection": "COLLECTION ",
+    "footer": "✦ RARE BY DESIGN",
+    "caption": "A LITTLE PERSONALITY IN EVERY BUILD."
+  },
+  "ticker": {
+    "developer": "DEVELOPER BY DAY",
+    "collector": "COLLECTOR ALWAYS",
+    "commit": "ONE MORE COMMIT",
+    "pack": "ONE MORE PACK"
+  },
+  "projects": {
+    "eyebrow": "01 / SELECTED WORK",
+    "heading": "Projects",
+    "headingAccent": "",
+    "introFirst": "A few things I’ve built.",
+    "introSecond": "",
+    "sampleNote": "",
+    "count": "{count} CARDS IN VIEW",
+    "sample": "SAMPLE PROJECT",
+    "explore": "Explore project ↗",
+    "view": "View card ↗",
+    "number": "NO.",
+    "items": {
+      "001": {
+        "title": "University Registration API",
+        "description": "Designed and implemented a Java/Jersey REST API for university registration. Built CRUD services for six entities with JSON data, automated builds with Maven, and ran integration tests with cURL and jq. Used Git for version control and collaborative development.",
+        "tags": ["Java", "Jersey", "Maven", "JSON", "cURL", "jq"]
+      },
+      "002": {
+        "title": "Personal Portfolio",
+        "description": "A multilingual portfolio built with HTML, CSS, and JavaScript. Features English, French, and Spanish content, a shared JSON quote collection, project card popups, and a Node.js build script that assembles separate HTML sections.",
+        "tags": ["HTML", "CSS", "JavaScript", "JSON", "Node.js"]
+      }
+    },
+    "empty": "No projects in this category yet."
+  },
+  "filters": {
+    "all": "All cards",
+    "web": "Web",
+    "tools": "Tools",
+    "experiments": "Experiments"
+  },
+  "about": {
+    "eyebrow": "02 / PLAYER PROFILE",
+    "headingFirst": "About me",
+    "headingSecond": "",
+    "headingAccent": "",
+    "noteFirst": "Whether it’s a tricky bug or a new deck,",
+    "noteSecond": "I’m always looking for the next good combination.",
+    "bio": "I contribute to Rx-APA, working on React and React Native applications, internationalization, form validation, and technical troubleshooting. I use Git and GitLab in a collaborative workflow with CI/CD, testing, code review, and documentation.\n\nI feel like I always need something to keep my mind engaged. That’s part of why I enjoy reading books such as Think Like a Programmer by V. Anton Spraul and Co-Intelligence: Living and Working with AI by Ethan Mollick. I’m also learning Japanese on the side.\n\nI also enjoy trading card games for the thinking they involve: building a deck, finding unexpected combinations, and deciding how to use limited resources to reach a goal. I like working out a plan, then adapting it as the game changes.\n\nI also enjoy optimizing things: spotting unnecessary steps, simplifying a process, and finding a more efficient way to get the same result."
+  },
+  "skills": {
+    "heading": "Technical skills",
+    "intro": "Every good build starts with the right deck.",
+    "passiveLabel": "PASSIVE ABILITY",
+    "passiveTitle": "Always learning.",
+    "passiveDescription": "New tools, new ideas, and room for one more card.",
+    "sampleNote": ""
+  },
+  "quotes": {
+    "eyebrow": "03 / WORDS TO KEEP",
+    "headingFirst": "A card for",
+    "headingSecond": "your ",
+    "headingAccent": "mind.",
+    "introFirst": "A small collection of thoughts worth keeping.",
+    "introSecond": "One random draw at a time.",
+    "deck": "✧ THE INSPIRATION DECK",
+    "draw": "another quote ",
+    "empty": "Your next favorite thought belongs here.",
+    "emptyAuthor": "Add a quote in quotes.json",
+    "intro": "I enjoy reading, so I keep a few lines here that I want to come back to.",
+    "loading": "Loading quotes…",
+    "loadError": "The quotes couldn’t be loaded. Please try refreshing."
+  },
+  "contact": {
+    "eyebrow": "04 / YOUR NEXT TEAMMATE?",
+    "headingFirst": "Get in touch",
+    "headingAccent": "",
+    "introFirst": "Have an idea, an opportunity, or a favorite card?",
+    "introSecond": "I’d love to hear about it.",
+    "sampleNote": "",
+    "hello": "Contact me",
+    "github": "GitHub ↗",
+    "soon": "coming soon",
+    "emailHint": "Add your email in content.js",
+    "githubHint": "Add your GitHub URL in content.js"
+  },
+  "footer": {
+    "credit": " · made a little at a time.",
+    "top": "Back to top ↑"
+  },
+  "dialog": {
+    "eyebrow": "PROJECT CARD / STARTER CONTENT",
+    "note": "Replace this sample and add a live or source link in content.js."
+  },
+  "meta": {
+    "title": "Jose-Luis Caceres Reyna — Software engineering student",
+    "description": "I’m a software engineering student at UQAM in Montréal. I’m interested in automation, system design, and integrating AI solutions with Python."
+  },
+  "language": {
+    "label": "Language",
+    "error": "This language could not be loaded. Your current language is still displayed."
+  },
+  "profile": {
+    "name": "Jose-Luis Caceres Reyna",
+    "skills": [
+      "Java",
+      "Python",
+      "JavaScript",
+      "C++",
+      "SQL",
+      "React",
+      "React Native",
+      "Flask",
+      "Node.js",
+      "HTML5",
+      "CSS3",
+      "REST APIs",
+      "SQLite",
+      "Git",
+      "GitLab",
+      "Docker",
+      "CI/CD",
+      "Maven",
+      "Linux",
+      "VS Code",
+      "cURL",
+      "jq"
+    ],
+    "location": "Montréal, Québec",
+    "languages": "Languages: French, English, Spanish.",
+    "skillGroups": [
+      {
+        "title": "Programming",
+        "items": ["Java", "Python", "JavaScript", "C++", "SQL"]
+      },
+      {
+        "title": "Web development",
+        "items": [
+          "React",
+          "React Native",
+          "Flask",
+          "Node.js",
+          "HTML5",
+          "CSS3",
+          "REST APIs"
+        ]
+      },
+      {
+        "title": "Databases",
+        "items": ["SQLite", "SQL", "Relational data design and manipulation"]
+      },
+      {
+        "title": "Tools & DevOps",
+        "items": [
+          "Git",
+          "GitLab",
+          "Docker",
+          "CI/CD",
+          "Maven",
+          "Linux",
+          "VS Code"
+        ]
+      },
+      {
+        "title": "Testing & integration",
+        "items": ["Integration testing", "cURL", "jq", "API validation"]
+      },
+      {
+        "title": "Ways of working",
+        "items": ["Agile", "Kanban", "Code review", "Technical documentation"]
+      }
+    ]
+  },
+  "categories": {
+    "Web": "Web",
+    "Tools": "Tools",
+    "Experiments": "Experiments"
+  },
+  "rarities": {
+    "RARE": "RARE",
+    "UNCOMMON": "UNCOMMON",
+    "HOLOGRAPHIC": "HOLOGRAPHIC"
+  },
+  "hall": {
+    "home": "Home",
+    "back": "← back",
+    "eyebrow": "THE DEVELOPER’S COLLECTION",
+    "heading": "Welcome to my little corner.",
+    "intro": "I’m a software engineering student at UQAM in Montréal. I’m interested in automation, system design, and integrating AI solutions with Python.",
+    "note": "THREE CARDS. ONE DEVELOPER. PLENTY TO DISCOVER.",
+    "open": "OPEN THE CARD ↗",
+    "about": {
+      "type": "THE DEVELOPER",
+      "artLabel": "CREATIVE TYPE / HUMAN",
+      "title": "About me",
+      "subtitle": "The person behind the keyboard",
+      "ability": "Curiosity comes standard",
+      "description": "My story, my skills, and a little of what makes me tick."
+    },
+    "projects": {
+      "type": "THE BUILDER",
+      "artLabel": "CREATIVE TYPE / PROJECTS",
+      "title": "Projects",
+      "subtitle": "Ideas turned into something real",
+      "ability": "Make the next good combo",
+      "description": "Explore my collection of builds, tools, and experiments."
+    },
+    "experience": {
+      "type": "THE JOURNEY",
+      "artLabel": "GROWTH TYPE / EXPERIENCE",
+      "title": "Experience",
+      "subtitle": "Every chapter adds a new ability",
+      "ability": "Always gaining experience",
+      "description": "The roles, challenges, and lessons collected along the way."
+    }
+  },
+  "experience": {
+    "eyebrow": "03 / EXPERIENCE",
+    "heading": "Experience",
+    "intro": "Where I’ve worked and what I did.",
+    "note": "",
+    "items": [
+      {
+        "role": "Software Developer",
+        "company": "Rx-APA",
+        "period": "January 2026 – present",
+        "note": "Supervised project from January to May 2026; continued contributing from August 2026.",
+        "description": "Development, maintenance, and improvement of React and React Native applications.",
+        "highlights": [
+          "Built and fixed web features, including internationalization, form validation, and user experience improvements.",
+          "Investigated application issues and troubleshot scripts, APIs, and technical configurations.",
+          "Used Git, GitLab, and CI/CD pipelines for testing, validation, code review, and deployment.",
+          "Collaborated with the team to understand requirements and improve delivered features.",
+          "Wrote technical documentation covering changes, tests, issues, and recommendations.",
+          "Contributed to Python research and prototypes for automation and multimedia content processing."
+        ]
+      }
+    ]
+  },
+  "desktop": {
+    "status": "DEVELOPER’S DESK / OPEN FOR EXPLORATION",
+    "quoteLabel": "a quote I like",
+    "contact": "Contact",
+    "hint": "Click something to have a look around.",
+    "edition": "PERSONAL COLLECTION · FIRST EDITION",
+    "close": "Close ×",
+    "greeting": "I’m "
+  },
+  "layout": {
+    "home": "Home",
+    "skills": "Skills",
+    "quotes": "Quotes",
+    "role": "Software engineering student",
+    "note": "Code, card games, and things I’m learning.",
+    "hello": "Hi there!",
+    "viewProjects": "See my projects →",
+    "getInTouch": "Get in touch →",
+    "education": "Education",
+    "training": "Additional training"
+  },
+  "education": {
+    "heading": "Education",
+    "items": [
+      {
+        "role": "Bachelor’s in Computer Science and Software Engineering",
+        "company": "UQAM",
+        "period": "Expected completion: August 2027",
+        "description": "Relevant coursework: object-oriented programming, data structures, algorithms, web development, databases, networks, Unix/Linux, and software engineering."
+      }
+    ]
+  },
+  "training": {
+    "heading": "Additional training",
+    "items": [
+      {
+        "role": "AWS Community on Tour",
+        "company": "AWS Developer Relations",
+        "period": "August 2026",
+        "description": "Hands-on workshop on application development, cloud service integration, and deploying serverless architectures."
+      },
+      {
+        "role": "COBOL Programming with VS Code",
+        "company": "IBM / Coursera",
+        "period": "August 2026",
+        "description": "Practical training in development, debugging, data processing, COBOL, JCL, DB2, and the IBM z/OS environment."
+      },
+      {
+        "role": "AI micro-internships",
+        "company": "Placement Spot",
+        "period": "June 2026",
+        "description": "Two micro-internships: automating a task with AI without coding, and comparing AI tools to choose solutions based on the use case and performance."
+      },
+      {
+        "role": "Hacktoberfest Hack Day Montréal x AGEEI",
+        "company": "Montréal, Québec",
+        "period": "",
+        "description": "Participated in a hackathon focused on open-source contributions, teamwork, and collaborative development."
+      }
+    ]
+  },
+  "social": {
+    "label": "Social profiles",
+    "pending": "{network} — profile link not added yet"
+  },
+  "interests": {
+    "heading": "Current interests",
+    "topic": "AI engineering & machine learning",
+    "description": "I’m currently learning about AI engineering and machine learning on my own. It’s a topic I’m exploring alongside my studies and development work.",
+    "notesDescription": "I’m using this repository to collect my machine learning notes as I learn.",
+    "notesLink": "My machine learning notes ↗"
+  }
+}
