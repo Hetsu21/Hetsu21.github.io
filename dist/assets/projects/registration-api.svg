@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="420" viewBox="0 0 720 420">
+<rect width="720" height="420" fill="#e9e1f0"/>
+<g fill="#fcfafc" stroke="#ae99bf" stroke-width="2"><rect x="55" y="135" width="150" height="140" rx="8"/><rect x="285" y="115" width="150" height="180" rx="8"/><rect x="515" y="135" width="150" height="140" rx="8"/></g>
+<g fill="none" stroke="#9376a6" stroke-width="3"><path d="M210 205h65m-12-9 12 9-12 9M440 205h65m-12-9 12 9-12 9"/><rect x="88" y="163" width="84" height="50" rx="3"/><path d="M130 213v15m-20 0h40"/><ellipse cx="590" cy="170" rx="29" ry="10"/><path d="M561 170v40c0 14 58 14 58 0v-40m-58 20c0 14 58 14 58 0"/></g>
+<g font-family="Arial, sans-serif" fill="#584367" text-anchor="middle"><text x="360" y="196" font-size="30">{ }</text><text x="130" y="255" font-size="16">Client</text><text x="360" y="235" font-size="19">REST API</text><text x="360" y="263" font-size="13">Java / Jersey</text><text x="590" y="255" font-size="16">Data</text><text x="360" y="355" font-size="13" letter-spacing="2">CRUD · JSON · INTEGRATION TESTS</text></g></svg>

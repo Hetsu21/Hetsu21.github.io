@@ -23,6 +23,10 @@ const localizedProject = project => ({
     project.description,
   ),
   tags: i18n.value(`projects.items.${project.number}.tags`, project.tags),
+  imageAlt: i18n.value(
+    `projects.items.${project.number}.imageAlt`,
+    project.title,
+  ),
 });
 function showProject(project) {
   openedProject = project;
@@ -32,8 +36,6 @@ function showProject(project) {
     `rarities.${project.rarity}`,
     project.rarity,
   );
-  $('#detail-number').textContent =
-    `${t('projects.number', 'NO.')} ${project.number}`;
   $('#detail-type').textContent = t(
     `categories.${project.category}`,
     project.category,
@@ -56,21 +58,27 @@ function showProject(project) {
 // Both the collection and enlarged card use the same artwork renderer.
 function createProjectArt(project) {
   const art = make('div', `project-art ${project.art}`);
-  art.setAttribute('aria-hidden', 'true');
-  art.append(
-    make(
-      'span',
-      'art-symbol',
-      project.art === 'terminal' ? '>_' : project.art === 'grid' ? '✳' : '◈',
-    ),
-  );
-  art.append(
-    make(
-      'span',
-      'art-coordinate',
-      `${t(`categories.${project.category}`, project.category).toUpperCase()} / ${project.number}`,
-    ),
-  );
+  const showFallback = () => {
+    art.setAttribute('aria-hidden', 'true');
+    art.replaceChildren(
+      make(
+        'span',
+        'art-symbol',
+        project.art === 'terminal' ? '>_' : project.art === 'grid' ? '✳' : '◈',
+      ),
+    );
+  };
+  if (project.image) {
+    const image = make('img', 'project-image');
+    image.src = project.image;
+    image.alt = project.imageAlt || project.title;
+    image.loading = 'lazy';
+    image.decoding = 'async';
+    image.addEventListener('error', showFallback);
+    art.append(image);
+  } else {
+    showFallback();
+  }
   return art;
 }
 $('#year').textContent = new Date().getFullYear();
@@ -95,7 +103,6 @@ function renderProjects(filter = 'All') {
     const top = make('div', 'project-top');
     top.append(
       make('span', '', t(`rarities.${project.rarity}`, project.rarity)),
-      make('span', '', `${t('projects.number', 'NO.')} ${project.number}`),
     );
     const art = createProjectArt(project);
     const body = make('div', 'project-body');

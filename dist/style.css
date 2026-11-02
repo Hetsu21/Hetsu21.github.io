@@ -883,3 +883,11 @@ footer {
   color: var(--muted);
   max-width: 650px;
 }
+
+/* Screenshots and illustrations appear in both the grid and enlarged card. */
+.project-image {
+  display: block;
+  height: 100%;
+  object-fit: cover;
+  width: 100%;
+}

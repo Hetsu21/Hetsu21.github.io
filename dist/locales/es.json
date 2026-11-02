@@ -59,12 +59,14 @@
       "001": {
         "title": "API de inscripciones universitarias",
         "description": "Diseño e implementación de una API REST en Java/Jersey para gestionar inscripciones universitarias. Servicios CRUD para seis entidades con datos JSON, compilaciones automatizadas con Maven y pruebas de integración con cURL y jq. Uso de Git para el control de versiones y el desarrollo colaborativo.",
-        "tags": ["Java", "Jersey", "Maven", "JSON", "cURL", "jq"]
+        "tags": ["Java", "Jersey", "Maven", "JSON", "cURL", "jq"],
+        "imageAlt": "Diagrama de comunicación entre un cliente, una API REST Java y una base de datos."
       },
       "002": {
         "title": "Portafolio personal",
         "description": "Un portafolio multilingüe creado con HTML, CSS y JavaScript. Contenido en español, francés e inglés, citas en un archivo JSON compartido, vistas ampliadas de proyectos y un script de Node.js que combina secciones HTML independientes.",
-        "tags": ["HTML", "CSS", "JavaScript", "JSON", "Node.js"]
+        "tags": ["HTML", "CSS", "JavaScript", "JSON", "Node.js"],
+        "imageAlt": "Ilustración de la barra lateral y el contenido de este portafolio."
       }
     },
     "empty": "Todavía no hay proyectos en esta categoría."

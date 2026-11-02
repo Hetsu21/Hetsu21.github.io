@@ -48,6 +48,8 @@ const portfolio = {
       rarity: 'RARE',
       number: '001',
       art: 'terminal',
+      // Replace with a screenshot path; leave empty to use the fallback artwork.
+      image: 'assets/projects/registration-api.svg',
       description:
         'Designed and implemented a Java/Jersey REST API for university registration. Built CRUD services for six entities with JSON data, automated builds with Maven, and ran integration tests with cURL and jq. Used Git for version control and collaborative development.',
       tags: ['Java', 'Jersey', 'Maven', 'JSON', 'cURL', 'jq'],
@@ -63,6 +65,7 @@ const portfolio = {
       rarity: 'UNCOMMON',
       number: '002',
       art: 'orbit',
+      image: 'assets/projects/portfolio.svg',
       tags: ['HTML', 'CSS', 'JavaScript', 'JSON', 'Node.js'],
       url: './',
       sample: false,

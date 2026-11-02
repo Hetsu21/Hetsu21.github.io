@@ -59,12 +59,14 @@
       "001": {
         "title": "University Registration API",
         "description": "Designed and implemented a Java/Jersey REST API for university registration. Built CRUD services for six entities with JSON data, automated builds with Maven, and ran integration tests with cURL and jq. Used Git for version control and collaborative development.",
-        "tags": ["Java", "Jersey", "Maven", "JSON", "cURL", "jq"]
+        "tags": ["Java", "Jersey", "Maven", "JSON", "cURL", "jq"],
+        "imageAlt": "Illustrated API flow between a client, a Java REST API, and a database."
       },
       "002": {
         "title": "Personal Portfolio",
         "description": "A multilingual portfolio built with HTML, CSS, and JavaScript. Features English, French, and Spanish content, a shared JSON quote collection, project card popups, and a Node.js build script that assembles separate HTML sections.",
-        "tags": ["HTML", "CSS", "JavaScript", "JSON", "Node.js"]
+        "tags": ["HTML", "CSS", "JavaScript", "JSON", "Node.js"],
+        "imageAlt": "Illustration of this portfolio’s sidebar and content layout."
       }
     },
     "empty": "No projects in this category yet."

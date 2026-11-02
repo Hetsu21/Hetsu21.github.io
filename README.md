@@ -107,3 +107,9 @@ npx --yes prettier@3.6.2 --check .
 ```
 
 Source uses two-space indentation, explicit control-block braces, semicolons, and single-quoted JavaScript strings. The generated `dist/index.html` is excluded from formatting checks. Tests cover behavior using a lightweight DOM stand-in; visual browser review is still separate.
+
+## Project images
+
+Each project in `dist/content.js` accepts an `image` path, for example `assets/projects/my-screenshot.png`. Put the file inside `dist/assets/projects/`. PNG, JPG, WebP, and SVG work. The initial project images are illustrations, not application screenshots; replace them with your actual screenshots whenever ready.
+
+Images are shown in the gallery and enlarged popup. Add a translated `imageAlt` under each project's locale entry. If an image is absent or fails to load, the original artwork appears instead. Project numbers are internal translation IDs and are not displayed to visitors.
