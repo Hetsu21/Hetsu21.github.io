@@ -1,0 +1,5 @@
+.git/
+node_modules/
+
+# Generated from src/. Format the editable source instead.
+dist/index.html
