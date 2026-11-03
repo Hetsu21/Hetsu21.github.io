@@ -103,7 +103,7 @@
       {
         "icon": "↳",
         "title": "Résolution de problèmes et optimisation",
-        "description": "J’aime comprendre pourquoi quelque chose ne fonctionne pas, décomposer le problème et repérer les étapes inutiles à simplifier. Cela s’applique au code, aux processus de travail et aux tâches du quotidien."
+        "description": "J’aime comprendre pourquoi quelque chose ne fonctionne pas, décomposer le problème et repérer les étapes inutiles à simplifier. Cela s’applique au code, aux processus de travail et aux tâches du quotidien. Je fais attention aux petits détails et j’aime réfléchir aux cas limites, au-delà du fonctionnement prévu."
       },
       {
         "icon": "◇",
@@ -135,7 +135,7 @@
     "introFirst": "Une petite collection de pensées à garder.",
     "introSecond": "Un tirage au hasard à la fois.",
     "deck": "✧ LE DECK D’INSPIRATION",
-    "draw": "une autre citation ",
+    "draw": "Une autre citation ",
     "empty": "Votre prochaine pensée préférée a sa place ici.",
     "emptyAuthor": "Ajoutez une citation dans quotes.json",
     "intro": "J’aime lire. Je garde ici quelques passages que j’ai envie de relire.",

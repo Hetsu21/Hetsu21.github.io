@@ -103,7 +103,7 @@
       {
         "icon": "↳",
         "title": "Resolución de problemas y optimización",
-        "description": "Me gusta entender por qué algo no funciona, dividir el problema en partes y detectar pasos innecesarios que se puedan simplificar. Lo aplico al código, a los procesos de trabajo y a las tareas cotidianas."
+        "description": "Me gusta entender por qué algo no funciona, dividir el problema en partes y detectar pasos innecesarios que se puedan simplificar. Lo aplico al código, a los procesos de trabajo y a las tareas cotidianas. Presto atención a los pequeños detalles y me gusta pensar en los casos límite, más allá del funcionamiento esperado."
       },
       {
         "icon": "◇",
@@ -135,7 +135,7 @@
     "introFirst": "Una pequeña colección de ideas que merece la pena guardar.",
     "introSecond": "Una carta al azar cada vez.",
     "deck": "✧ LA BARAJA DE LA INSPIRACIÓN",
-    "draw": "otra cita ",
+    "draw": "Otra cita ",
     "empty": "Tu próxima idea favorita tiene su lugar aquí.",
     "emptyAuthor": "Añade una cita en quotes.json",
     "intro": "Me gusta leer, así que guardo aquí algunas frases a las que quiero volver.",

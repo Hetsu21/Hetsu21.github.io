@@ -103,7 +103,7 @@
       {
         "icon": "↳",
         "title": "Problem-solving & optimization",
-        "description": "I like figuring out why something isn’t working, breaking the problem into smaller pieces, and finding unnecessary steps to simplify. That applies to code, workflows, and everyday tasks."
+        "description": "I like figuring out why something isn’t working, breaking the problem into smaller pieces, and finding unnecessary steps to simplify. That applies to code, workflows, and everyday tasks. I pay attention to the small details and like thinking through edge cases, not just the expected path."
       },
       {
         "icon": "◇",
@@ -135,7 +135,7 @@
     "introFirst": "A small collection of thoughts worth keeping.",
     "introSecond": "One random draw at a time.",
     "deck": "✧ THE INSPIRATION DECK",
-    "draw": "another quote ",
+    "draw": "Another quote ",
     "empty": "Your next favorite thought belongs here.",
     "emptyAuthor": "Add a quote in quotes.json",
     "intro": "I enjoy reading, so I keep a few lines here that I want to come back to.",
