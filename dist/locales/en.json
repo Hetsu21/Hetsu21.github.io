@@ -87,12 +87,45 @@
     "bio": "I contribute to Rx-APA, working on React and React Native applications, internationalization, form validation, and technical troubleshooting. I use Git and GitLab in a collaborative workflow with CI/CD, testing, code review, and documentation.\n\nI feel like I always need something to keep my mind engaged. That’s part of why I enjoy reading books such as Think Like a Programmer by V. Anton Spraul and Co-Intelligence: Living and Working with AI by Ethan Mollick. I’m also learning Japanese on the side.\n\nI also enjoy trading card games for the thinking they involve: building a deck, finding unexpected combinations, and deciding how to use limited resources to reach a goal. I like working out a plan, then adapting it as the game changes.\n\nI also enjoy optimizing things: spotting unnecessary steps, simplifying a process, and finding a more efficient way to get the same result."
   },
   "skills": {
-    "heading": "Technical skills",
+    "heading": "Skills",
     "intro": "Every good build starts with the right deck.",
     "passiveLabel": "PASSIVE ABILITY",
     "passiveTitle": "Always learning.",
     "passiveDescription": "New tools, new ideas, and room for one more card.",
-    "sampleNote": ""
+    "sampleNote": "",
+    "technicalHeading": "Languages & tools",
+    "strengths": [
+      {
+        "icon": "</>",
+        "title": "Software development",
+        "description": "I work with Java, Python, and JavaScript, including React and React Native through Rx-APA. I enjoy picking up the tools a project needs and turning an idea into something that works."
+      },
+      {
+        "icon": "↳",
+        "title": "Problem-solving & optimization",
+        "description": "I like figuring out why something isn’t working, breaking the problem into smaller pieces, and finding unnecessary steps to simplify. That applies to code, workflows, and everyday tasks."
+      },
+      {
+        "icon": "◇",
+        "title": "Teamwork",
+        "description": "At Rx-APA, I collaborate with the team to understand requirements, review changes, and improve features. I value asking questions, sharing what I find, and keeping others informed."
+      },
+      {
+        "icon": "✓",
+        "title": "Testing & documentation",
+        "description": "I’ve written integration tests with cURL and jq, worked with CI/CD pipelines, and documented changes and issues. I want the next person reading my work to understand what changed and why."
+      },
+      {
+        "icon": "↗",
+        "title": "Independent learning",
+        "description": "I’m exploring AI engineering and machine learning on my own, keeping notes as I go. Books and learning Japanese also give me different ways to challenge myself and stay curious."
+      },
+      {
+        "icon": "♧",
+        "title": "Strategic thinking",
+        "description": "Deck building in trading card games is another kind of problem-solving for me: finding combinations, managing limited resources, and adapting a plan when the situation changes."
+      }
+    ]
   },
   "quotes": {
     "eyebrow": "03 / WORDS TO KEEP",

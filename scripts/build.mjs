@@ -110,8 +110,10 @@ export async function build() {
   });
   const output = resolve(projectRoot, 'dist/index.html');
   // Replace only once assembly succeeds; errors leave the last good page intact.
-  await writeFile(output + '.tmp', html);
-  await rename(output + '.tmp', output);
+  // Separate preview and manual builds must not share a temporary file.
+  const temporary = `${output}.${process.pid}.tmp`;
+  await writeFile(temporary, html);
+  await rename(temporary, output);
   console.log(
     `Built dist/index.html (${sections.filter(section => section.enabled !== false).length} sections).`,
   );

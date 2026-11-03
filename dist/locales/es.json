@@ -87,12 +87,45 @@
     "bio": "Colaboro en Rx-APA, trabajando en aplicaciones React y React Native, internacionalización, validación de formularios y resolución de problemas técnicos. Utilizo Git y GitLab en un entorno colaborativo con CI/CD, pruebas, revisión de código y documentación.\n\nSiento que siempre necesito algo que mantenga mi mente activa. Por eso disfruto leer libros como Think Like a Programmer, de V. Anton Spraul, y Co-Intelligence: Living and Working with AI, de Ethan Mollick. También estoy aprendiendo japonés por mi cuenta.\n\nTambién disfruto los juegos de cartas coleccionables por la reflexión que requieren: construir una baraja, encontrar combinaciones inesperadas y decidir cómo usar recursos limitados para alcanzar un objetivo. Me gusta preparar un plan y adaptarlo a medida que cambia la partida.\n\nTambién disfruto optimizar las cosas: detectar pasos innecesarios, simplificar un proceso y encontrar una forma más eficiente de obtener el mismo resultado."
   },
   "skills": {
-    "heading": "Habilidades técnicas",
+    "heading": "Habilidades",
     "intro": "Toda buena creación empieza con la baraja adecuada.",
     "passiveLabel": "HABILIDAD PASIVA",
     "passiveTitle": "Siempre aprendiendo.",
     "passiveDescription": "Nuevas herramientas, nuevas ideas y espacio para una carta más.",
-    "sampleNote": ""
+    "sampleNote": "",
+    "technicalHeading": "Lenguajes y herramientas",
+    "strengths": [
+      {
+        "icon": "</>",
+        "title": "Desarrollo de software",
+        "description": "Trabajo con Java, Python y JavaScript, incluyendo React y React Native en Rx-APA. Me gusta aprender las herramientas que necesita un proyecto y convertir una idea en algo que funcione."
+      },
+      {
+        "icon": "↳",
+        "title": "Resolución de problemas y optimización",
+        "description": "Me gusta entender por qué algo no funciona, dividir el problema en partes y detectar pasos innecesarios que se puedan simplificar. Lo aplico al código, a los procesos de trabajo y a las tareas cotidianas."
+      },
+      {
+        "icon": "◇",
+        "title": "Trabajo en equipo",
+        "description": "En Rx-APA colaboro con el equipo para entender los requisitos, revisar cambios y mejorar funciones. Valoro hacer preguntas, compartir lo que descubro y mantener informados a los demás."
+      },
+      {
+        "icon": "✓",
+        "title": "Pruebas y documentación",
+        "description": "He realizado pruebas de integración con cURL y jq, trabajado con pipelines CI/CD y documentado cambios y problemas. Quiero que la siguiente persona que lea mi trabajo entienda qué cambió y por qué."
+      },
+      {
+        "icon": "↗",
+        "title": "Aprendizaje autónomo",
+        "description": "Exploro la ingeniería de IA y el aprendizaje automático por mi cuenta, tomando notas durante el proceso. La lectura y el estudio del japonés también me ayudan a desafiarme y mantener la curiosidad."
+      },
+      {
+        "icon": "♧",
+        "title": "Pensamiento estratégico",
+        "description": "Construir barajas en juegos de cartas coleccionables es otra forma de resolver problemas para mí: encontrar combinaciones, gestionar recursos limitados y adaptar un plan cuando cambia la situación."
+      }
+    ]
   },
   "quotes": {
     "eyebrow": "03 / PALABRAS PARA GUARDAR",

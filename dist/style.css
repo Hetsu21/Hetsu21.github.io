@@ -891,3 +891,47 @@ footer {
   object-fit: cover;
   width: 100%;
 }
+
+/* Personal strengths, with the technical stack kept underneath. */
+.skill-strengths {
+  display: grid;
+  gap: 30px 35px;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  margin-block: 30px 40px;
+}
+
+.skill-strength {
+  align-items: start;
+  display: flex;
+  gap: 14px;
+}
+
+.skill-symbol {
+  color: var(--accent);
+  flex: 0 0 30px;
+  font: 22px/1.3 monospace;
+  text-align: center;
+}
+
+.skill-copy h3 {
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.skill-copy p {
+  color: var(--muted);
+  font-size: 13px;
+  line-height: 1.8;
+  margin: 0;
+}
+
+.technical-heading {
+  font-size: 18px;
+}
+
+@media (max-width: 1050px) {
+  .skill-strengths {
+    grid-template-columns: 1fr;
+  }
+}

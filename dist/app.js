@@ -330,6 +330,20 @@ function renderLanguage() {
     $('#bio').textContent = i18n.value('about.bio', portfolio.bio);
   }
   // Each skill group is translated as data, so new groups need no layout edits.
+  $('#skill-strengths')?.replaceChildren(
+    ...i18n.value('skills.strengths', []).map(skill => {
+      const article = make('article', 'skill-strength');
+      const icon = make('span', 'skill-symbol', skill.icon);
+      icon.setAttribute('aria-hidden', 'true');
+      const copy = make('div', 'skill-copy');
+      copy.append(
+        make('h3', '', skill.title),
+        make('p', '', skill.description),
+      );
+      article.append(icon, copy);
+      return article;
+    }),
+  );
   const groups = i18n.value('profile.skillGroups', []);
   $('#skill-groups')?.replaceChildren(
     ...groups.map(group => {
